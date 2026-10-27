@@ -26,7 +26,10 @@ export default function SupportPanel({ onClose }: { onClose: () => void }) {
       <div className={styles.modalPanel}>
         <ModalHeader title={t("support")} onClose={onClose} />
         <p className={styles.hint}>{t("supportHint")}</p>
-        <code className={styles.code}>{address}</code>
+        <code className={styles.code}>
+          {/* Lets a long address break after the @ rather than mid-domain. */}
+          {address.split("@").map((part, i) => (i === 0 ? part : <span key={i}>@<wbr />{part}</span>))}
+        </code>
         <PixelButton variant="primary" onClick={() => openExternal(`lightning:${address}`)}>
           ⚡ {t("openWallet")}
         </PixelButton>

@@ -509,6 +509,8 @@
   font-family: inherit;
   letter-spacing: 1px;
   color: var(--gold);
+  text-align: center;
+  overflow-wrap: anywhere;
 }
 
 /* ---------- shop slots, missions ---------- */

@@ -42,7 +42,7 @@ export const gameConfig = {
    * Lightning Address for the "♥ Support" button, which opens the player's wallet app.
    * Leave empty to hide the button.
    */
-  lightningAddress: "" as string,
+  lightningAddress: "saltedbowling30@walletofsatoshi.com" as string,
 
   /** Default UI locale when the browser language is neither ja nor en. */
   fallbackLocale: "en" as Locale,
