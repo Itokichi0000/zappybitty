@@ -1,0 +1,46 @@
+/* Bundled with the app (SIL Open Font License 1.1, see src/assets/fonts/DotGothic16-OFL.txt). */
+@font-face {
+  font-family: "DotGothic16";
+  src: url("../assets/fonts/DotGothic16-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --ink: #1b2a4a;
+  --navy: #0e1a33;
+  --cream: #fff6e5;
+  --orange: #f7931a;
+  --gold: #ffe08a;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background: var(--navy);
+}
+
+body {
+  font-family: "DotGothic16", "Courier New", monospace;
+  color: #fff;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+canvas {
+  display: block;
+}

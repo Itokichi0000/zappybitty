@@ -1,0 +1,28 @@
+repository: https://github.com/Itokichi0000/zappybitty
+match: '^zappybitty-[0-9.]+\.apk$'
+
+name: Zappy Bitty
+summary: A one-tap game where bitty flaps through candlestick charts. Offline, no ads.
+description: |
+  Tap to flap! Guide **bitty** through green and red candlestick charts, from a sunny
+  day in Shibuya to the Moon and beyond.
+
+  - 14 zones, each with its own scenery, music and obstacles
+  - Coins, items (magnet, HODL shield, rocket, laser eyes…), enemies and missions
+  - Spend the bitty you collect on skins, hats, glasses and trails
+  - One continue per run, paid with bitty
+
+  bitty are in-game points only, never real bitcoin. The game runs entirely on your
+  phone: no account, no server, no ads, no tracking. Japanese and English.
+
+  Open source under the MIT License.
+license: MIT
+tags: [game, arcade, bitcoin, offline]
+
+icon: ./public/icons/icon-512.png
+images:
+  - ./docs/screenshots/1-start.png
+  - ./docs/screenshots/2-play.png
+  - ./docs/screenshots/3-shop.png
+  - ./docs/screenshots/4-gameover.png
+release_notes: ./CHANGELOG.md
